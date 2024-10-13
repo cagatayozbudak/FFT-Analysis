@@ -12,3 +12,6 @@ This project focuses on the implementation of the Fast Fourier Transform (FFT) t
 
 
 Install the required libraries (NumPy, Matplotlib, OpenCV)
+
+ex. func1 f(t)=3⋅sin(2π⋅50⋅t)+5⋅sin(2π⋅120⋅t)
+Ex. func2 f(t)=2⋅sin(2π⋅30⋅t)+1.5⋅sin(2π⋅60⋅t)+1.0⋅sin(2π⋅90⋅t)+0.5⋅sin(2π⋅150⋅t)+0.8⋅sin(2π⋅200⋅t)
