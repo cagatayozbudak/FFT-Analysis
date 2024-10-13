@@ -10,6 +10,9 @@ This project focuses on the implementation of the Fast Fourier Transform (FFT) t
 - **Video Motion Analysis**: Extracts motion data from a video file and applies FFT to understand its frequency behavior.
 - **Visualization**: Plots the original signals, their decomposed components, and FFT frequency spectrum using `matplotlib`.
 
+Depending on the characteristics of the video file (e.g., resolution, noise), the threshold value and the Gaussian Blur kernel size may need to be adjusted.
+For example, lower thresholds may be more sensitive to small movements, while larger blur kernel sizes can help smooth out noise in higher resolution videos.
+These values can be changed in the code before running, and are located in the sections handling motion detection and preprocessing.
 
 Install the required libraries (NumPy, Matplotlib, OpenCV)
 
